@@ -20,6 +20,7 @@ Simply provide a target domain, and the script will gather subdomains and scan t
 python3 check_dps.py
 ```
 Who is this for?
+--------------------
 Bug bounty hunters looking to streamline recon
 
 Penetration testers automating initial asset discovery
