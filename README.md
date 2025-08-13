@@ -26,7 +26,7 @@ Bug bounty hunters looking to streamline recon
 Penetration testers automating initial asset discovery
 
 Security enthusiasts learning recon techniques
-------------------------------------------------------------
+
 *Adjust --masscan-rate carefully depending on your bandwidth and target.
 
 Usage examples:
