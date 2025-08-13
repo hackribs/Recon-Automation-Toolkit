@@ -15,7 +15,10 @@ Features
 Getting Started
 -----------------------
 Simply provide a target domain, and the script will gather subdomains and scan their ports automatically.
-
+-_- dont forget to install requirements using:
+```bash
+python3 check_dps.py
+```
 Who is this for?
 Bug bounty hunters looking to streamline recon
 
