@@ -23,14 +23,16 @@ Penetration testers automating initial asset discovery
 
 Security enthusiasts learning recon techniques
 ------------------------------------------------------------
+*Adjust --masscan-rate carefully depending on your bandwidth and target.
 
 Usage examples:
 ----------------------------------------
 Full scan with Amass + Masscan + HTTP probe:
 ```bash
 python core_scan.py example.com --subdomains --ports --http --report myscan --threads 40 --masscan-rate 2000
--------------------------------
+```
 Subdomains with Sublist3r + Nmap scan:
 ```bash
 python core_scan.py example.com --subdomains --ports --subdomain-tool sublist3r --port-tool nmap
--------------------------------------------------------
+```
+
