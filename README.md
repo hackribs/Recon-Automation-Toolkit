@@ -25,15 +25,10 @@ Security enthusiasts learning recon techniques
 ------------------------------------------------------------
 
 Usage examples:
+----------------------------------------
 Full scan with Amass + Masscan + HTTP probe:
-
-bash
-Copy
-Edit
 python core_scan.py example.com --subdomains --ports --http --report myscan --threads 40 --masscan-rate 2000
+-------------------------------
 Subdomains with Sublist3r + Nmap scan:
-
-bash
-Copy
-Edit
-python core_scan.py example.com --subdomains --ports --subdomain-tool 
+python core_scan.py example.com --subdomains --ports --subdomain-tool sublist3r --port-tool nmap
+-------------------------------------------------------
